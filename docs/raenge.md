@@ -2,6 +2,12 @@
 
 Ränge erweitern vor allem Komfortfunktionen wie Homes, mobile Werkbänke und zusätzliche Lands-Möglichkeiten. Die folgende Übersicht basiert auf dem aktuellen Rangkonzept.
 
+<div class="rank-compare">
+  <strong>Alle Ränge direkt vergleichen</strong>
+  <span>Die aktuelle Gegenüberstellung aller Vorteile und Preise findest du im offiziellen DeutschlandSMP-Shop.</span>
+  <a href="https://shop.deutschlandsmp.de/Rangvergleich">Rangvergleich im Shop öffnen</a>
+</div>
+
 !!! note "Konzeptstand"
     Noch nicht festgelegte Werte, etwa maximale Claimgrößen, werden hier bewusst nicht als feste Vorteile aufgeführt.
 
@@ -71,4 +77,4 @@ Zusätzlich zu den vorherigen Vorteilen:
 - `/feed` alle 20 Minuten
 
 !!! info "Änderungen möglich"
-    Rangvorteile können während der Entwicklung angepasst werden. Prüfe vor einem Kauf zusätzlich die aktuelle Anzeige im Shop oder auf dem Server.
+    Rangvorteile können während der Entwicklung angepasst werden. Maßgeblich ist der aktuelle [Rangvergleich im Shop](https://shop.deutschlandsmp.de/Rangvergleich).

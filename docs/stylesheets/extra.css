@@ -61,6 +61,40 @@ body {
   opacity: 1;
 }
 
+.md-tabs__link[href^="https://"] {
+  align-items: center;
+  border: 1px solid rgba(245, 197, 66, 0.55);
+  border-radius: 999px;
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.25rem;
+  margin-top: 0.35rem;
+  min-height: 1.65rem;
+  padding: 0.2rem 0.65rem;
+}
+
+.md-tabs__link[href^="https://"]::after,
+.md-nav--primary .md-nav__link[href^="https://"]::after {
+  content: "↗";
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+
+.md-tabs__item:has(.md-tabs__link[href="https://discord.desmp.de"]) {
+  margin-left: auto;
+}
+
+.md-tabs__link[href="https://shop.deutschlandsmp.de/"] {
+  background: var(--desmp-gold);
+  border-color: var(--desmp-gold);
+  color: #111111;
+}
+
+.md-tabs__link[href="https://shop.deutschlandsmp.de/"]:hover {
+  background: var(--desmp-gold-bright);
+  color: #111111;
+}
+
 .md-header__button.md-logo {
   margin: 0.15rem 0.2rem;
   padding: 0.15rem;
@@ -152,6 +186,41 @@ body {
   color: var(--desmp-gold-bright);
 }
 
+.rank-compare {
+  align-items: flex-start;
+  background: linear-gradient(135deg, rgba(245, 197, 66, 0.16), rgba(255, 255, 255, 0.025));
+  border: 1px solid rgba(245, 197, 66, 0.55);
+  border-radius: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin: 1.25rem 0;
+  padding: 1rem 1.2rem;
+}
+
+.rank-compare strong {
+  color: var(--desmp-gold-bright);
+  font-size: 1.05rem;
+}
+
+.rank-compare a {
+  background: var(--desmp-gold);
+  border-radius: 0.35rem;
+  color: #111111;
+  font-weight: 700;
+  margin-top: 0.25rem;
+  padding: 0.55rem 0.85rem;
+}
+
+.rank-compare a::after {
+  content: " ↗";
+}
+
+.rank-compare a:hover {
+  background: var(--desmp-gold-bright);
+  color: #111111;
+}
+
 .md-typeset table:not([class]) {
   background: var(--desmp-surface-raised);
   border: 1px solid var(--desmp-border);
@@ -201,5 +270,20 @@ body {
   .md-nav--primary .md-nav__title {
     background: #0e0e0e;
     color: #ffffff;
+  }
+
+  .md-nav--primary .md-nav__link[href^="https://"] {
+    border: 1px solid rgba(245, 197, 66, 0.5);
+    border-radius: 0.4rem;
+    color: var(--desmp-gold-bright);
+    font-weight: 700;
+    justify-content: space-between;
+    margin: 0.35rem 0.6rem;
+    padding: 0.55rem 0.7rem;
+  }
+
+  .md-nav--primary .md-nav__link[href="https://shop.deutschlandsmp.de/"] {
+    background: var(--desmp-gold);
+    color: #111111;
   }
 }

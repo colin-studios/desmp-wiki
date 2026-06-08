@@ -43,6 +43,9 @@ nav:
   - Ränge: raenge.md
   - Regeln: regeln.md
   - FAQ: faq.md
+  - Discord: https://discord.desmp.de
+  - LiveMap: https://map.deutschlandsmp.de/
+  - Shop: https://shop.deutschlandsmp.de/
 
 markdown_extensions:
   - admonition
