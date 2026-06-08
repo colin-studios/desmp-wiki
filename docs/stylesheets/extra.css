@@ -254,6 +254,28 @@ body {
   border-top: 1px solid rgba(245, 197, 66, 0.2);
 }
 
+.md-footer-meta__inner {
+  justify-content: center;
+}
+
+.md-copyright {
+  margin: 0.5rem 0;
+}
+
+.md-copyright__highlight a {
+  border: 1px solid rgba(245, 197, 66, 0.45);
+  border-radius: 999px;
+  color: var(--desmp-gold-bright);
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+}
+
+.md-copyright__highlight a:hover {
+  background: rgba(245, 197, 66, 0.12);
+  color: #ffffff;
+}
+
 @media screen and (max-width: 76.234375em) {
   .md-header__button.md-logo {
     display: block;
