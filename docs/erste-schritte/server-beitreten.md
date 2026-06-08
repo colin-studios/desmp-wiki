@@ -33,7 +33,7 @@ DeutschlandSMP unterstützt **Minecraft Java Edition** und **Minecraft Bedrock E
 2. Schließe das Tutorial ab.
 3. Lies mindestens die [Kurzfassung der Regeln](../regeln.md#kurzfassung).
 4. Nutze `/warp farmbox`, um deine ersten Coins zu verdienen.
-5. Schütze deinen Bauplatz mit `/lands create <Name>` und `/lands claim`.
+5. Erstelle mit `/lands create <Name>` ein Land und claime dort deine Chunks.
 
-!!! warning "Schütze dein Zuhause"
-    Baue größere Projekte erst, nachdem du die Chunks mit Lands geclaimt hast. So können andere Spieler dort weder bauen noch deine Kisten öffnen.
+!!! tip "Mit Freunden bauen"
+    In der Wildnis kann nicht gebaut werden. In deinem Land kannst zunächst nur du bauen. Möchtest du gemeinsam mit jemandem bauen, gib der Person mit `/lands trust <Name>` gezielt Rechte. Mit `/lands untrust <Name>` entziehst du diese wieder.
