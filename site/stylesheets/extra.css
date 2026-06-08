@@ -1,0 +1,70 @@
+:root {
+  --desmp-gold: #f5c542;
+  --desmp-gold-bright: #ffd95a;
+  --desmp-gold-dark: #b98600;
+  --desmp-surface: #171717;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #c99700;
+  --md-primary-fg-color--light: #f5c542;
+  --md-primary-fg-color--dark: #8a6500;
+  --md-accent-fg-color: #ffd95a;
+  --md-typeset-a-color: #f5c542;
+}
+
+.md-header,
+.md-tabs {
+  background: linear-gradient(90deg, #8a6500, #d5a900 55%, #8a6500);
+}
+
+.md-typeset h1 {
+  color: var(--desmp-gold-bright);
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid rgba(245, 197, 66, 0.35);
+  padding-bottom: 0.25rem;
+}
+
+.md-typeset code {
+  border: 1px solid rgba(245, 197, 66, 0.25);
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-color: rgba(245, 197, 66, 0.35);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--desmp-gold);
+  transform: translateY(-2px);
+}
+
+.server-address {
+  background: linear-gradient(135deg, rgba(245, 197, 66, 0.16), rgba(245, 197, 66, 0.04));
+  border: 1px solid rgba(245, 197, 66, 0.55);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem 1.2rem;
+}
+
+.server-address strong {
+  color: var(--desmp-gold-bright);
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(245, 197, 66, 0.14);
+  color: var(--desmp-gold-bright);
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--desmp-gold);
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(245, 197, 66, 0.12);
+}

@@ -1,0 +1,55 @@
+site_name: DeutschlandSMP Wiki
+site_url: https://wiki.desmp.de
+site_description: Offizielles Wiki für DeutschlandSMP.de
+site_author: DeutschlandSMP.de
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: slate
+    primary: amber
+    accent: yellow
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Startseite: index.md
+  - Erste Schritte:
+      - Server beitreten: erste-schritte/server-beitreten.md
+      - Java Edition: erste-schritte/java.md
+      - Bedrock Edition: erste-schritte/bedrock.md
+      - PlayStation & Xbox: erste-schritte/konsole.md
+  - Spielsysteme:
+      - Coins: systeme/coins.md
+      - Farmboxen: systeme/farmbox.md
+      - Fortschritt & Tageslimit: systeme/progression.md
+      - Lands & Grundstücksschutz: systeme/lands.md
+      - Sicher handeln: systeme/trade.md
+      - Dönerladen: systeme/doenerladen.md
+      - Standort & Karte: systeme/wobinich.md
+  - Befehle: befehle.md
+  - Ränge: raenge.md
+  - Regeln: regeln.md
+  - FAQ: faq.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
