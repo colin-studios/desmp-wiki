@@ -17,14 +17,27 @@ Der Befehl zeigt dir je nach Position:
 
 ## Zu einem Ort teleportieren
 
+Starte den Teleport mit:
+
 ```text
 /wobinich tp <Stadt>
 ```
 
-Der Teleport ist ab dem normalen Spieler-Rang verfügbar. Je nach Rang kann der Cooldown kürzer sein.
+Bestätige das angezeigte Ziel anschließend mit:
 
-!!! info "Bonus für neue Spieler"
-    Neue Spieler erhalten laut aktuellem Guide drei kostenlose Nutzungen der Teleportfunktion.
+```text
+/wobinich tp <Stadt> confirm
+```
+
+Beispiel:
+
+```text
+/wobinich tp Berlin
+/wobinich tp Berlin confirm
+```
+
+!!! info "Kostenlose Teleports und Cooldown"
+    Neue Spieler erhalten drei kostenlose Teleports. Danach gilt für den Spieler-Rang ein Cooldown von vier Tagen. Höhere Ränge haben einen kürzeren Cooldown.
 
 ## LiveMap
 

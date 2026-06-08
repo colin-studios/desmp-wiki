@@ -17,7 +17,10 @@ Argumente in `<spitzen Klammern>` ersetzt du durch einen eigenen Wert. Gib die K
 | Befehl | Funktion |
 |---|---|
 | `/wobinich` | Zeigt Land, Bundesland/Kanton und Stadt. |
-| `/wobinich tp <Stadt>` | Teleportiert dich zu einem unterstützten Ort. |
+| `/wobinich tp <Stadt>` | Wählt eine unterstützte Stadt als Teleportziel aus. |
+| `/wobinich tp <Stadt> confirm` | Bestätigt den Teleport zur ausgewählten Stadt. |
+
+Neue Spieler erhalten drei kostenlose Teleports. Danach beträgt der Cooldown für den Spieler-Rang vier Tage; höhere Ränge haben einen kürzeren Cooldown.
 
 ## Coins und Farmboxen
 
