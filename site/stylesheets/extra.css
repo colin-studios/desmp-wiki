@@ -1,21 +1,109 @@
 :root {
   --desmp-gold: #f5c542;
   --desmp-gold-bright: #ffd95a;
-  --desmp-gold-dark: #b98600;
-  --desmp-surface: #171717;
+  --desmp-gold-dark: #a87800;
+  --desmp-black: #0b0b0b;
+  --desmp-surface: #121212;
+  --desmp-surface-raised: #191919;
+  --desmp-border: #303030;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #c99700;
-  --md-primary-fg-color--light: #f5c542;
-  --md-primary-fg-color--dark: #8a6500;
-  --md-accent-fg-color: #ffd95a;
-  --md-typeset-a-color: #f5c542;
+  --md-primary-fg-color: #111111;
+  --md-primary-fg-color--light: #242424;
+  --md-primary-fg-color--dark: #080808;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.75);
+  --md-accent-fg-color: var(--desmp-gold-bright);
+  --md-accent-fg-color--transparent: rgba(245, 197, 66, 0.12);
+  --md-default-bg-color: var(--desmp-surface);
+  --md-default-fg-color: #eeeeee;
+  --md-default-fg-color--light: #c8c8c8;
+  --md-default-fg-color--lighter: #909090;
+  --md-default-fg-color--lightest: #303030;
+  --md-code-bg-color: #1b1b1b;
+  --md-code-fg-color: #f2f2f2;
+  --md-typeset-a-color: var(--desmp-gold);
+  --md-footer-bg-color: #0d0d0d;
+  --md-footer-bg-color--dark: #080808;
 }
 
-.md-header,
+body {
+  background: var(--desmp-surface);
+}
+
+.md-header {
+  background: linear-gradient(90deg, #080808, #17130a 55%, #080808);
+  border-bottom: 2px solid var(--desmp-gold-dark);
+  color: #ffffff;
+}
+
 .md-tabs {
-  background: linear-gradient(90deg, #8a6500, #d5a900 55%, #8a6500);
+  background: #0e0e0e;
+  border-bottom: 1px solid rgba(245, 197, 66, 0.25);
+  color: #ffffff;
+}
+
+.md-header__title,
+.md-header__button,
+.md-tabs__link,
+.md-search__icon {
+  color: #ffffff;
+}
+
+.md-tabs__link {
+  opacity: 0.82;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--desmp-gold-bright);
+  opacity: 1;
+}
+
+.md-header__button.md-logo {
+  margin: 0.15rem 0.2rem;
+  padding: 0.15rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.md-search__form {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.md-search__input,
+.md-search__input::placeholder {
+  color: #ffffff;
+}
+
+.md-main,
+.md-main__inner,
+.md-content,
+.md-sidebar {
+  background-color: var(--desmp-surface);
+}
+
+.md-sidebar__scrollwrap,
+.md-nav {
+  background-color: transparent;
+}
+
+.md-nav__link {
+  color: #d4d4d4;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--desmp-gold-bright);
+}
+
+.md-typeset {
+  color: #e7e7e7;
 }
 
 .md-typeset h1 {
@@ -25,14 +113,24 @@
 
 .md-typeset h2 {
   border-bottom: 1px solid rgba(245, 197, 66, 0.35);
+  color: #f4f4f4;
   padding-bottom: 0.25rem;
 }
 
+.md-typeset h3 {
+  color: #f0d77c;
+}
+
 .md-typeset code {
-  border: 1px solid rgba(245, 197, 66, 0.25);
+  border: 1px solid rgba(245, 197, 66, 0.2);
+}
+
+.md-typeset pre > code {
+  background-color: #181818;
 }
 
 .md-typeset .grid.cards > ul > li {
+  background: var(--desmp-surface-raised);
   border-color: rgba(245, 197, 66, 0.35);
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
@@ -43,7 +141,7 @@
 }
 
 .server-address {
-  background: linear-gradient(135deg, rgba(245, 197, 66, 0.16), rgba(245, 197, 66, 0.04));
+  background: linear-gradient(135deg, rgba(245, 197, 66, 0.13), rgba(255, 255, 255, 0.02));
   border: 1px solid rgba(245, 197, 66, 0.55);
   border-radius: 0.5rem;
   margin: 1rem 0;
@@ -54,9 +152,23 @@
   color: var(--desmp-gold-bright);
 }
 
+.md-typeset table:not([class]) {
+  background: var(--desmp-surface-raised);
+  border: 1px solid var(--desmp-border);
+}
+
 .md-typeset table:not([class]) th {
   background: rgba(245, 197, 66, 0.14);
   color: var(--desmp-gold-bright);
+}
+
+.md-typeset table:not([class]) td {
+  border-color: var(--desmp-border);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  background: var(--desmp-surface-raised);
 }
 
 .md-typeset .admonition.tip,
@@ -67,4 +179,27 @@
 .md-typeset .tip > .admonition-title,
 .md-typeset .tip > summary {
   background-color: rgba(245, 197, 66, 0.12);
+}
+
+.md-footer {
+  border-top: 1px solid rgba(245, 197, 66, 0.2);
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-logo {
+    display: block;
+    margin: 0.1rem;
+    padding: 0.2rem;
+  }
+
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  .md-nav--primary .md-nav__title {
+    background: #0e0e0e;
+    color: #ffffff;
+  }
 }

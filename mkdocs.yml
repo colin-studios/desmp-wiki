@@ -6,6 +6,8 @@ site_author: DeutschlandSMP.de
 theme:
   name: material
   language: de
+  logo: assets/images/desmp-logo.png
+  favicon: assets/images/desmp-logo.png
   features:
     - navigation.tabs
     - navigation.sections
