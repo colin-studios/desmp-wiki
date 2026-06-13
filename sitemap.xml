@@ -2,66 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://wiki.desmp.de/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/befehle/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/faq/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/raenge/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/regeln/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/erste-schritte/bedrock/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/erste-schritte/java/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/erste-schritte/konsole/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/erste-schritte/server-beitreten/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://wiki.desmp.de/systeme/auktionshaus/</loc>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/coins/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/doenerladen/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/farmbox/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/lands/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/progression/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/trade/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://wiki.desmp.de/systeme/wobinich/</loc>
-         <lastmod>2026-06-08</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
 </urlset>
