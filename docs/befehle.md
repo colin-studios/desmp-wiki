@@ -32,6 +32,14 @@ Neue Spieler erhalten drei kostenlose Teleports. Danach beträgt der Cooldown f�
 | `/warp farmbox` | Teleportiert dich zu den Farmboxen. |
 | `/farmbox unlock <Nummer>` | Schaltet die nächste Farmbox frei. |
 
+## Auktionshaus
+
+| Befehl | Funktion |
+|---|---|
+| `/ah` | Öffnet das Auktionshaus. |
+| `/ah sell <Preis>` | Bietet das Item in deiner Hand zum angegebenen Preis an. |
+| `/ah listings` | Zeigt und verwaltet deine eigenen Angebote. |
+
 ## Sicherer Handel
 
 | Befehl | Funktion |

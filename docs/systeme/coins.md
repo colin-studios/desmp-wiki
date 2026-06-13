@@ -20,6 +20,7 @@ Lands, Farmboxen und Features freischalten
 |---|---|
 | [Farmboxen](farmbox.md) | Baue Blöcke in speziellen Farmbereichen ab. |
 | [Dönerladen](doenerladen.md) | Kaufe Waren, produziere Döner und verkaufe sie. |
+| [Auktionshaus](auktionshaus.md) | Biete Items mit `/ah sell <Preis>` anderen Spielern zum Kauf an. |
 | [Spielerhandel](trade.md) | Tausche Items oder Dienstleistungen gegen Coins. |
 | Aktiv spielen | Steigere dein Aktivitätslevel und damit dein Tageslimit. |
 

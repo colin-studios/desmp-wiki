@@ -39,6 +39,7 @@ nav:
   - Spielsysteme:
       - Coins: systeme/coins.md
       - Farmboxen: systeme/farmbox.md
+      - Auktionshaus: systeme/auktionshaus.md
       - Fortschritt & Tageslimit: systeme/progression.md
       - Lands & Grundstücksschutz: systeme/lands.md
       - Sicher handeln: systeme/trade.md
